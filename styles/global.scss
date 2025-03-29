@@ -1,0 +1,32 @@
+@import "@radix-ui/themes/styles.css";
+@import "@near-wallet-selector/modal-ui/styles.css";
+@import "@near-wallet-selector/account-export/styles.css";
+
+/* Define global styles here */
+
+body {
+  font-family: var(--font-sans);
+  // Add more global styles as needed
+}
+
+/* Example: Style for links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Example: Style for lists */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Example: Style for form elements */
+input,
+textarea,
+select {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
